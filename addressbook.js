@@ -35,19 +35,10 @@ class Contact {
   }
 }
 
-const AddressBook = new AddressBook();
-AddressBook.print();
-AddressBook.add("Name1", "123", "@yahoo.com", "self");
-AddressBook.add("joe", "456", "@gmail.com", "friend");
-AddressBook.print();
-AddressBook.delete("Louie");
-AddressBook.print();
-
-// //Methods
-//     // addName()
-//     // addEmail()
-//     // addPhone()
-//     // addRelation()
-//     // deleteName
-
-// }
+const addressBook = new AddressBook();
+addressBook.print();
+addressBook.add("Louie", "1234567", "@yahoo.com", "self");
+addressBook.add("Chris", "4567890", "@gmail.com", "friend");
+addressBook.print();
+addressBook.delete("Louie");
+addressBook.print();
